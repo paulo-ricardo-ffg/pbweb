@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/paulo-ricardo-ffg/pbweb?style=for-the-badge)
+[![GitHub License](https://img.shields.io/github/license/paulo-ricardo-ffg/pbweb?style=for-the-badge)](https://github.com/paulo-ricardo-ffg/pbweb/tree/main)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpaulo-ricardo-ffg.github.io%2Fpbweb%2F&style=for-the-badge)](https://paulo-ricardo-ffg.github.io/pbweb/)
 
 
