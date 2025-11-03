@@ -90,6 +90,7 @@ nav ul li a {
     color: var(--branco);
     font-style: oblique;
 }
+
 /* Fim - Smartphone Portrait >>>>>>>>>>>>>> */
 
 
@@ -100,12 +101,14 @@ nav ul li a {
     .container {
         max-width: 540px;
     }
+
     /* Cabecalho */
     nav ul {
         width: 30%;
         right: -30%;
     }
 }
+
 /* Fim - Smartphone Landscape >>>>>>>>>>>>> */
 
 
@@ -129,6 +132,7 @@ nav ul li a {
         max-width: 960px;
     }
 }
+
 /* Fim - TTablet landscape >>>>>>>>>>>>>>>> */
 
 
@@ -138,8 +142,47 @@ nav ul li a {
     /* Layout */
     .container {
         max-width: 1140px;
+        justify-content: space-between;
+    }
+
+    /* Cabecalho */
+    header {
+        height: 100px;
+    }
+
+    /* Logo */
+    #logo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Menu Hamburguer */
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 16.2px;
+    }
+
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    nav ul li a:hover {
+        color: var(--azul);
     }
 }
+
 /* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
 
 
@@ -151,4 +194,5 @@ nav ul li a {
         max-width: 1320px;
     }
 }
+
 /* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
