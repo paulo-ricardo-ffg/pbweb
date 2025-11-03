@@ -40,7 +40,7 @@ html {
 header {
     height: 85.5px;
     background-color: var(--azulMedio);
-    border-bottom: 2px solid var(--azul);
+    border-bottom: 2.5px solid var(--azul);
 }
 
 #logo img {
@@ -82,7 +82,7 @@ nav ul li {
     list-style: none;
     padding: 17.5px;
     text-align: left;
-    border-bottom: 1.5rem solid var(--azulMedio);
+    border-bottom: 1.5px solid var(--azulMedio);
 }
 
 nav ul li a {
