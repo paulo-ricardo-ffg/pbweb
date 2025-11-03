@@ -7,4 +7,4 @@
 👨‍💻 **Autor:** [Paulo Ricardo](https://github.com/paulo-ricardo-ffg)
 
 ## Acessar o Site
-[QRCODE](https://github.com/paulo-ricardo-ffg/pbweb/blob/main/img/qrcode.png?raw=true)
+![](./img/qrcode.png)
