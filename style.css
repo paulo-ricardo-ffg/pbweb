@@ -10,6 +10,7 @@
     --verde: #88e788;
     --vermelho: #ff2c2c;
     --azuleletrico: #3498db;
+
 }
 
 /* CSS Reset */
@@ -37,18 +38,24 @@ html {
     font-size: 1.3rem;
     font-weight: 600;
     background-color: var(--azuleletrico);
-    padding: 10px 40px;
     color: var(--branco);
     border-radius: 25px;
-    box-shadow: 0 0 6px rgba(0, 140, 255, 0.4);
+    border: 1px solid var(--azul);
+    color: white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 30px;
+    font-weight: 600;
     transition: all 0.3s ease;
     border: 1px solid var(--azul);
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+
 }
 
 .btn:hover {
-    box-shadow: 0 0 10px rgba(0, 140, 255, 0.6),
-        0 0 20px rgba(0, 140, 255, 0.4);
-    transform: scale(1.03);
+    background-color: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<<<< */
