@@ -113,7 +113,7 @@ nav ul li a {
 
 /* Principal */
 main {
-    height: 87vh;
+    height: 50vh;
     background: url(./img/banner.png);
     background-size: cover;
     background-position: center;
@@ -162,6 +162,10 @@ main h2 {
     }
 
     /* Principal */
+    main {
+        height: 80vh;
+    }
+
     main h2 {
         font-size: 1rem;
     }
@@ -183,6 +187,7 @@ main h2 {
     main {
         height: 92vh;
     }
+
     main h1 {
         font-size: 3rem;
     }
@@ -202,8 +207,9 @@ main h2 {
     .container {
         max-width: 960px;
     }
+
     /* Principal */
-    main{
+    main {
         height: 89vh;
     }
 }
@@ -259,7 +265,7 @@ main h2 {
     }
 
     /** Principal */
-    main{
+    main {
         height: 88vh;
     }
 }
@@ -274,8 +280,9 @@ main h2 {
     .container {
         max-width: 1320px;
     }
+
     /* Principal */
-    main{
+    main {
         height: 89vh;
     }
 }
