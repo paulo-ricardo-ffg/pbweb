@@ -192,7 +192,7 @@ main h2 {
     }
 
     main h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     main h2 {
@@ -287,6 +287,9 @@ main h2 {
     /* Principal */
     main {
         height: 89vh;
+    }
+    main h1 {
+        font-size: 3rem;
     }
 }
 
