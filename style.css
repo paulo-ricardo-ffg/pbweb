@@ -39,14 +39,10 @@ html {
     font-weight: 600;
     background-color: var(--azuleletrico);
     color: var(--branco);
-    border-radius: 25px;
     border: 1px solid var(--azul);
-    color: white;
     padding: 0.8rem 1.8rem;
     border-radius: 30px;
-    font-weight: 600;
     transition: all 0.3s ease;
-    border: 1px solid var(--azul);
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 
