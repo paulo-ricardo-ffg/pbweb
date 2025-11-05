@@ -37,8 +37,8 @@ html {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    background-color: var(--azuleletrico);
-    color: var(--branco);
+    background-color: var(--branco);
+    color: var(--azuleletrico);
     border: 1px solid var(--azul);
     padding: 0.8rem 1.8rem;
     border-radius: 30px;
@@ -49,7 +49,7 @@ html {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #c1d8f0;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -135,7 +135,7 @@ main h1 {
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     font-size: 1.8rem;
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 main h2 {
@@ -188,7 +188,7 @@ main h2 {
     /* Principal */
 
     main {
-        height: 92vh;
+        height: 60vh;
     }
 
     main h1 {
@@ -197,6 +197,7 @@ main h2 {
 
     main h2 {
         font-size: 1.4rem;
+        font-weight: 400;
     }
 }
 
@@ -290,6 +291,7 @@ main h2 {
     }
     main h1 {
         font-size: 3rem;
+        margin-top: -140px;
     }
 }
 
