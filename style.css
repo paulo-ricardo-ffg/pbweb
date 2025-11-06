@@ -215,8 +215,6 @@ main h2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 #sobre h2 {
@@ -241,7 +239,7 @@ main h2 {
     height: 191px;
     border: 0;
     box-shadow: 0px 5px 10px var(--azuleletrico), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-
+    align-items: center;
 }
 
 /* Fim - Smartphone Portrait >>>>>>>>>>>>>> */
@@ -452,6 +450,11 @@ main h2 {
         font-size: 3rem;
         margin-top: -140px;
     }
+    #sobre .container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
 }
 
 /* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
