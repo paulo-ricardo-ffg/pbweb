@@ -181,7 +181,7 @@ main h2 {
     margin-bottom: 15px;
     color: var(--branco);
     font-size: 1.6rem;
-    text-align: center;
+    text-align: left;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -241,6 +241,49 @@ main h2 {
     box-shadow: 0px 5px 10px var(--azuleletrico), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     align-items: center;
 }
+
+/* Contato */
+#contato .container2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contato {
+    padding: 10px;
+    padding: 20px 10px;
+    background: url(./img/banner_fundo1.png);
+    background-size: cover;
+    background-position: left;
+    border-top: 1px solid var(--azuleletrico);
+    border-bottom: 1px solid var(--azuleletrico);
+}
+
+#contato h2 {
+    margin-bottom: 15px;
+    color: var(--branco);
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contato p {
+    color: var(--branco);
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#contato .qrcode-img {
+    display: none;
+}
+
+#contato .btn {
+    text-decoration: none;
+    border: 10px;
+    text-align: center;
+}
+
+
 
 /* Fim - Smartphone Portrait >>>>>>>>>>>>>> */
 
@@ -304,6 +347,12 @@ main h2 {
         height: 391px;
         border: 0;
     }
+
+    /* Contato */
+    #contato .qrcode-img {
+        display: none;
+    }
+
 }
 
 
@@ -315,7 +364,7 @@ main h2 {
 
     /* Layout */
     .container {
-        max-width: 720px;
+        max-width: 760px;
     }
 
     /* Principal */
@@ -354,6 +403,24 @@ main h2 {
     /* Principal */
     main {
         height: 89vh;
+    }
+
+    /* Sobre */
+    #video iframe {
+        width: 500px;
+        height: 300px;
+        border: 0;
+        margin-left: 10px;
+    }
+
+    #sobre .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Contato */
+    #contato .qrcode-img {
+        display: none;
     }
 }
 
@@ -425,36 +492,50 @@ main h2 {
 
     .topics {
         display: flex;
-        flex-direction: column;
+        flex-direction: left;
     }
 
-}
-
-/* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
-
-
-/* FULL HD / 4K  >>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (min-width: 1400px) {
-
-    /* Layout */
-    .container {
-        max-width: 1320px;
+    /* Sobre */
+    #sobre {
+        padding: 50px 10px 50px 10px;
     }
 
-    /* Principal */
-    main {
-        height: 89vh;
-    }
-
-    main h1 {
-        font-size: 3rem;
-        margin-top: -140px;
-    }
     #sobre .container {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-}
+        display: flex;
+        flex-direction: row;
+    }
 
-/* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
+    /* Contato */
+    #contato {
+        background-attachment: fixed;
+    }
+
+    /* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
+
+
+    /* FULL HD / 4K  >>>>>>>>>>>>>>>>>>>>>>>>>> */
+    @media (min-width: 1400px) {
+
+        /* Layout */
+        .container {
+            max-width: 1320px;
+        }
+
+        /* Principal */
+        main {
+            height: 89vh;
+        }
+
+        main h1 {
+            font-size: 3rem;
+            margin-top: -140px;
+        }
+
+        #sobre .container {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+    }
+
+    /* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
