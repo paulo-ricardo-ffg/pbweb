@@ -418,6 +418,10 @@ main h2 {
         flex-direction: row;
     }
 
+    #sobre p {
+        padding: 15px;
+    }
+
     /* Contato */
     #contato .qrcode-img {
         display: none;
@@ -492,7 +496,6 @@ main h2 {
 
     .topics {
         display: flex;
-        flex-direction: left;
     }
 
     /* Sobre */
@@ -505,37 +508,42 @@ main h2 {
         flex-direction: row;
     }
 
+    #sobre p {
+        padding: 25px;
+    }
+
     /* Contato */
     #contato {
         background-attachment: fixed;
     }
+}
 
-    /* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
+/* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
 
 
-    /* FULL HD / 4K  >>>>>>>>>>>>>>>>>>>>>>>>>> */
-    @media (min-width: 1400px) {
+/* FULL HD / 4K  >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1400px) {
 
-        /* Layout */
-        .container {
-            max-width: 1320px;
-        }
-
-        /* Principal */
-        main {
-            height: 89vh;
-        }
-
-        main h1 {
-            font-size: 3rem;
-            margin-top: -140px;
-        }
-
-        #sobre .container {
-            display: flex;
-            flex-direction: row;
-            padding: 10px;
-        }
+    /* Layout */
+    .container {
+        max-width: 1320px;
     }
 
-    /* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
+    /* Principal */
+    main {
+        height: 89vh;
+    }
+
+    main h1 {
+        font-size: 3rem;
+        margin-top: -140px;
+    }
+
+    #sobre .container {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+}
+
+/* Fim - FULL HD / 4K >>>>>>>>>>>>>>>>>>>>> */
