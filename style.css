@@ -4,7 +4,7 @@
 :root {
     --azul: #2e7a96;
     --azulEscuro: #14243c;
-    --azulMedio: #191c25;
+    --azulMedio: #2a375f;
     --preto: #000000;
     --branco: #ffff;
     --verde: #88e788;
@@ -53,6 +53,56 @@ html {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+/*Serviços Cartão*/
+.card {
+    width: 342px;
+    height: 560px;
+    background-color: var(--azulMedio);
+    margin-bottom: 25px;
+    border: solid 2px var(--azuleletrico);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    margin: 15px 0px;
+    color: var(--branco);
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    color: var(--branco);
+    text-align: left;
+    font-size: 1rem;
+    padding: 15px 10px 15px 15px;
+}
+
+.card a.btn {
+    font-size: 1rem;
+    padding: 1rem 5rem;
+}
+
+.btn2 {
+    text-decoration: none;
+    font-size: 1.30rem;
+    font-weight: 500;
+    background-color: var(--branco);
+    padding: 10px 20px;
+    color: var(--azuleletrico);
+    border-radius: 50px;
+    border: 1px solid var(--azuleletrico);
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 106px;
+}
+
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
@@ -248,7 +298,7 @@ main h2 {
 }
 
 /* Contato */
-#contato .container2 {
+#contato .container {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -289,6 +339,26 @@ main h2 {
     border: 10px;
     text-align: center;
     margin-top: 20px;
+}
+
+/*Serviços Cartões */
+
+#serviços .container>h2 {
+    color: var(--branco);
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#serviços {
+    background-color: var(--azulEscuro);
+    padding: 30px 0px 25px 0px;
+}
+
+#serviços .container {
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -442,6 +512,18 @@ main h2 {
     #contato .qrcode-img {
         display: none;
     }
+
+    /*Serviços Cartões*/
+
+    #serviços .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-right: 25px;
+    }
 }
 
 /* Fim - TTablet landscape >>>>>>>>>>>>>>>> */
@@ -531,15 +613,16 @@ main h2 {
     }
 
     /* Contato */
-    #contato .container2 {
+    .container {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
     }
 
 
     #contato p {
         color: var(--branco);
-        font-size: 0.8rem;
+        font-size: 1rem;
+        font-weight: 700;
         margin-bottom: 15px;
         margin-bottom: 20px;
     }
