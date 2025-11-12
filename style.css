@@ -431,6 +431,7 @@ main h2 {
     flex-direction: row-reverse;
     justify-content: center;
     max-width: 375px;
+    margin-top: 60px;
 }
 
 
