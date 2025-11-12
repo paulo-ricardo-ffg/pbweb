@@ -57,7 +57,7 @@ html {
 /*Serviços Cartão*/
 .card {
     width: 342px;
-    height: 560px;
+    height: 540px;
     background-color: var(--azulMedio);
     margin-bottom: 25px;
     border: solid 2px var(--azuleletrico);
@@ -97,7 +97,7 @@ html {
     color: var(--azuleletrico);
     border-radius: 50px;
     border: 1px solid var(--azuleletrico);
-    display: block;
+    display: none;
     width: fit-content;
     margin-top: 10px;
     margin-left: 106px;
@@ -422,6 +422,15 @@ main h2 {
     padding: 10px;
 }
 
+#contatos {
+    border-bottom: 1px solid var(--azuleletrico);
+    text-align: left;
+}
+
+#contatos a{
+    max-width: 300px;
+}
+
 #contatos iframe {
     display: none;
 }
@@ -432,7 +441,12 @@ main h2 {
     justify-content: center;
     max-width: 375px;
     margin-top: 60px;
-    margin-left: 65px;
+    margin-left: 4px;
+}
+
+#contatos .zap {
+    display: flex;
+    margin-left: 10000;
 }
 
 
@@ -509,8 +523,8 @@ main h2 {
         justify-content: center;
         max-width: 375px;
         margin-right: -1000px;
-        margin-top: 60px;
-        margin-left: 0px;
+        margin-top: 40px;
+        margin-left: -100px;
     }
 }
 
@@ -763,6 +777,11 @@ main h2 {
     #contatos .mapsicon {
         display: none
     }
+    #contatos a {
+    text-align: left;
+    padding-top: 60px;
+    font-size: 1.5rem;
+}
 
 }
 
