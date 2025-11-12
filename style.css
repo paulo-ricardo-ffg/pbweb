@@ -432,6 +432,7 @@ main h2 {
     justify-content: center;
     max-width: 375px;
     margin-top: 60px;
+    margin-left: 65px;
 }
 
 
@@ -509,6 +510,7 @@ main h2 {
         max-width: 375px;
         margin-right: -1000px;
         margin-top: 60px;
+        margin-left: 0px;
     }
 }
 
