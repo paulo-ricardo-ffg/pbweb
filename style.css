@@ -201,7 +201,7 @@ main h2 {
     font-weight: 400;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 10px;
 }
 
@@ -272,11 +272,12 @@ main h2 {
     flex-direction: column;
     padding: 10px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 #sobre h2 {
-    margin-bottom: 15px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 0px;
     color: var(--branco);
     font-size: 1.6rem;
     text-align: center;
@@ -287,8 +288,11 @@ main h2 {
     color: var(--branco);
     font-size: 0.8rem;
     padding-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+}
 
+#contato .p2 {
+    margin-bottom: 50px;
 }
 
 #video iframe {
@@ -299,8 +303,6 @@ main h2 {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-
-
 }
 
 /* Contato */
@@ -333,7 +335,7 @@ main h2 {
     font-size: 0.8rem;
     margin-bottom: 15px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #contato .qrcode-img {
@@ -425,9 +427,10 @@ main h2 {
 #contatos {
     border-bottom: 1px solid var(--azuleletrico);
     text-align: left;
+    display: flex;
 }
 
-#contatos a{
+#contatos a {
     max-width: 300px;
 }
 
@@ -436,7 +439,7 @@ main h2 {
 }
 
 #contatos .mapsicon {
-    display: flex;
+    display: NONE;
     flex-direction: row-reverse;
     justify-content: center;
     max-width: 375px;
@@ -446,7 +449,6 @@ main h2 {
 
 #contatos .zap {
     display: flex;
-    margin-left: 10000;
 }
 
 
@@ -519,7 +521,7 @@ main h2 {
     }
 
     #contatos .mapsicon {
-        display: flex;
+        display: none;
         justify-content: center;
         max-width: 375px;
         margin-right: -1000px;
@@ -579,7 +581,7 @@ main h2 {
     }
 
     #contatos .iframe {
-        display: flex;
+        display: none;
         flex-direction: row-reverse;
     }
 
@@ -607,7 +609,7 @@ main h2 {
 
     /* Sobre */
     #video iframe {
-        width: 510px;
+        width: 600PX;
         height: 378px;
         border: 0;
         margin-left: 10px;
@@ -641,10 +643,10 @@ main h2 {
         margin-right: 25px;
     }
 
-    #contatos .a {
-        display: flex;
+    #contatos .container {
         flex-direction: row;
-        padding-left: 240px;
+        display: flex;
+
     }
 }
 
@@ -720,7 +722,7 @@ main h2 {
 
     /* Sobre */
     #sobre {
-        padding: 50px 10px 50px 10px;
+        padding: 0px 10px 20px 10px;
     }
 
     #sobre .container {
@@ -746,7 +748,7 @@ main h2 {
         font-size: 1rem;
         font-weight: 700;
         margin-bottom: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     #contato .qrcode-img {
@@ -777,11 +779,42 @@ main h2 {
     #contatos .mapsicon {
         display: none
     }
+
     #contatos a {
-    text-align: left;
-    padding-top: 60px;
-    font-size: 1.5rem;
-}
+        text-align: center;
+        padding-top: 60px;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+    }
+
+    #contatos a img {
+        margin-right: 15px;
+    }
+
+    #video iframe {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        max-width: 500px;
+    }
+
+    main h2 {
+        margin-bottom: 100px;
+    }
+
+    #contatos p {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contatos a {
+        margin: 15px;
+    }
+
+    #sobre h2{
+        margin-top: 35px;
+    }
 
 }
 
