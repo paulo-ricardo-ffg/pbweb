@@ -377,7 +377,7 @@ main h2 {
 
 #contatos .container {
     display: flex;
-    flex-direction: column;
+
 }
 
 #contatos a {
@@ -389,7 +389,6 @@ main h2 {
     display: flex;
     flex-direction: row;
     max-width: 200px;
-    max-height: auto;
 }
 
 #footer {
@@ -425,6 +424,13 @@ main h2 {
 
 #contatos iframe {
     display: none;
+}
+
+#contatos .mapsicon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-width: 375px;
 }
 
 
@@ -496,6 +502,13 @@ main h2 {
         display: none;
     }
 
+    #contatos .mapsicon {
+        display: flex;
+        justify-content: center;
+        max-width: 375px;
+        margin-right: -1000px;
+        margin-top: 60px;
+    }
 }
 
 
@@ -551,6 +564,10 @@ main h2 {
     #contatos .iframe {
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    #contatos .mapsicon {
+        display: none
     }
 
 }
@@ -729,7 +746,7 @@ main h2 {
         display: flex;
         display: flex;
         flex-direction: row-reverse;
-        margin-top: -200px;
+        margin-top: 1px;
         border-radius: 20px;
         padding: 10px;
     }
@@ -739,6 +756,11 @@ main h2 {
         flex-direction: column;
         text-align: left;
     }
+
+    #contatos .mapsicon {
+        display: none
+    }
+
 }
 
 
