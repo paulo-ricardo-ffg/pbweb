@@ -103,6 +103,12 @@ html {
     margin-left: 106px;
 }
 
+/* Topo do Site */
+#topo {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
 
 /* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
@@ -112,7 +118,7 @@ html {
 /* Cabecalho */
 header {
     height: 85.5px;
-    background-color: var(--azulMedio);
+    background-color: var(--azulEscuro);
     border-bottom: 2.5px solid var(--azul);
 }
 
@@ -332,6 +338,7 @@ main h2 {
 
 #contato .qrcode-img {
     display: none;
+    border-radius: 20px;
 }
 
 #contato .btn {
@@ -361,6 +368,71 @@ main h2 {
     align-items: center;
 }
 
+/* Finalização */
+#contatos {
+    background-color: var(--azulEscuro);
+    text-decoration: none;
+    border-top: 1px solid var(--azuleletrico);
+}
+
+#contatos .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#contatos a {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contatos h2 {
+    color: var(--branco);
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 0px 5px 10px var(--azuleletrico), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#footer {
+    background-color: var(--azulEscuro);
+    display: flex;
+    text-decoration: none;
+
+}
+
+#footer p {
+    text-decoration: none;
+    color: var(--branco);
+    margin: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--azulEscuro);
+    padding-bottom: 10px;
+}
+
+.redes img {
+    padding: 10px;
+}
+
+#contatos iframe {
+    display: none;
+}
 
 
 /* Fim - Smartphone Portrait >>>>>>>>>>>>>> */
@@ -471,6 +543,23 @@ main h2 {
         padding: 0px;
         font-size: 0.8rem;
     }
+
+    #contatos .h2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contatos .a {
+        display: flex;
+        flex-direction: row;
+        padding-left: 140px;
+    }
+
+    #contatos .iframe {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
 }
 
 /* Fim - Tablet Portrait >>>>>>>>>>>>>>>>>> */
@@ -523,6 +612,12 @@ main h2 {
 
     .card {
         margin-right: 25px;
+    }
+
+    #contatos .a {
+        display: flex;
+        flex-direction: row;
+        padding-left: 240px;
     }
 }
 
@@ -633,7 +728,27 @@ main h2 {
         height: 250px;
     }
 
+    #contato {
+        background-attachment: fixed;
+    }
+
+    #contatos iframe {
+        display: flex;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -240px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    #contatos .a {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
 }
+
+
 
 /* Fim - Notebook / PC >>>>>>>>>>>>>>>>>>>> */
 
