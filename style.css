@@ -388,15 +388,8 @@ main h2 {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-}
-
-#contatos h2 {
-    color: var(--branco);
-    font-size: 1.2rem;
-    text-align: center;
-    text-shadow: 0px 5px 10px var(--azuleletrico), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-    margin-top: 15px;
+    max-width: 200px;
+    max-height: auto;
 }
 
 #footer {
@@ -736,7 +729,7 @@ main h2 {
         display: flex;
         display: flex;
         flex-direction: row-reverse;
-        margin-top: -240px;
+        margin-top: -200px;
         border-radius: 20px;
         padding: 10px;
     }
